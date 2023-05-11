@@ -1,0 +1,64 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body{
+    margin: 0px;
+}
+
+.block{
+    position: absolute;
+    width: 60px;
+    height: 90px;
+    background-image: url("flame.gif");
+    background-size: cover;
+    margin-top: 685px;
+}
+
+.boy{
+    position: absolute;
+    height: 200px;
+    margin-top: 600px;
+}
+
+.score{
+    position: absolute;
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.gameOver{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.btn{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+
+    font-size: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+
+    border-style: none;
+    border-radius: 5px;
+}
